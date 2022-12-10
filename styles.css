@@ -1,2 +1,124 @@
 
 /* Your CSS Code here. */
+.header_section {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-anchor ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.head-sec-one {
+    display: flex;
+    align-items: center;
+}
+.header-anchor ul li {
+    padding-right: 20px;
+}
+.header-anchor ul li a
+{
+    font-family: "Montserrat";
+    text-decoration: none;
+    color: #2A2367;
+    font-style: normal;
+    font-weight: 700;
+}
+.logo {
+    width: 120px;
+}
+.logo img {
+    width: 100%;
+}
+.head-sec-two {
+    display: flex;
+}
+.head-sec-logo {
+    display: flex;
+}
+.number-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
+.what-logo {
+    margin-left: 10px;
+}
+.number-sec h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    color: #2A2367;
+    margin-bottom: 0px;
+}
+.number-bio h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2A2367;
+}
+.header-anchor {
+    margin-left: 31px;
+}
+.tele-logo {
+    width: 20px;
+}
+.tele-logo a img {
+    width: 100%;
+}
+.what-logo {
+    width: 20px;
+}
+.what-logo a img {
+    width: 100%;
+}
+.number-one-button button {
+    background: #ffff;
+    border-radius: 5px;
+    color: #6B5AF9;
+    padding: 12px 15px;
+    border-width: 2px;
+    border-color: #6B5AF9;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+}
+.number-one-button button:hover {
+    transition: 0.5s ease all;
+    color: #ffff;
+    background: #6B5AF9;
+    border-color: #6B5AF9;
+}
+.number-one-button {
+    margin-left: 30px;
+}
+.header-anchor ul li a:hover {
+    color: #6B5AF9;
+    transition: 0.5s ease all;
+}
+.p-sec-header h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2A2367;
+}
+.p-sec-header span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #6B5AF9;
+}
